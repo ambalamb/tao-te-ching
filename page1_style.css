@@ -1,0 +1,59 @@
+html {
+  background-image: url("../tao_te_ching/imgs/snowymountainstock.jpg")
+}
+
+body {
+  font-family: 'Petit Formal Script', cursive;
+  color: #fff;
+  letter-spacing: .3em;
+  line-height: 2em;
+  background-color: rgba(230, 204, 255, .3);
+  margin: 0;
+  text-shadow: rgb(40, 0, 77) -5px 5px 20px;
+  border: 30px solid rgb(41, 41, 61);
+  width: 91.5%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  line-height: 1.6em;
+}
+
+span.verse, span.verse_two, span.verse_three {
+  display: block;
+  border: 5px solid rgba(230, 204, 255, .9);
+  border-radius: 1.3em;
+  padding: 1.3em;
+  width: 85%;
+  margin: 0 auto;
+}
+
+span.verse {
+  background-color: rgba(41, 41, 61, .3);
+}
+
+span.verse_two {
+  background-color: rgba(41, 41, 81, .48);
+}
+
+span.verse_three {
+  background-color: rgba(41, 41, 91, .64);
+}
+
+/*footer {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  border-top: 5px solid rgba(230, 204, 205, .8);
+  border-left: 5px solid rgba(230, 204, 205, .8);
+  border-right: 5px solid rgba(230, 204, 205, .8);
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  padding: 1.3em;
+  background-color: rgba(41, 41, 91, .92);
+  width: 85%;
+  height: 5%;
+  margin: 0 auto;
+}*/
