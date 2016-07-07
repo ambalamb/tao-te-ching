@@ -1,3 +1,7 @@
 # readme for Tao Te Ching Project
 
-A project to bring some visual fun to Tao Te Ching verses, unicorn fun bang bang
+A project to bring some visual fun to Tao Te Ching verses, 
+
+unicorn fun bang bang
+
+BUT WHAT ABOUT THE HOT DOGS
