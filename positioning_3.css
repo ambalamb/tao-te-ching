@@ -1,0 +1,57 @@
+body {
+  background: black;
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 120px;
+  text-align: center;
+  line-height: 1.6em;
+  margin-top: 10%;
+}
+
+h1 a {
+  color: #1E1C1B;
+  text-decoration: line-through;
+}
+
+h1 a:hover {
+  color: #1E1C2B;
+}
+
+#circle_1, #circle_2, #circle_3, #circle_4 {
+  background: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+#circle_1 {
+  height: 300px;
+  width: 300px;
+  border: 80px solid powderblue;
+
+}
+
+#circle_2 {
+  height: 200px;
+  width: 200px;
+  border: 80px solid #E8EAE6;
+}
+
+#circle_3 {
+  height: 100px;
+  width: 100px;
+  border: 80px solid #E1DBCB;
+}
+
+#circle_4 {
+  height: 50px;
+  width: 50px;
+  border: 50px solid #C6B694;
+}
