@@ -1,0 +1,50 @@
+html {
+  background-image: url("../tao_te_ching/imgs/godstreemon.jpg");
+  height: 100%;
+}
+
+body {
+  background-color: rgba(255, 153, 51, .3);
+  color: #ffff66;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .2em;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin: 0;
+  text-shadow: rgb(100, 100, 100) -1px 1px 10px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: .7em;
+  line-height: 2em;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: block;
+  border-radius: 50px;
+  border: 50px dashed rgba(255, 255, 102, .9);
+  background-color: rgba(0, 0, 51, .4);
+  /*box-shadow: inset rgb(0, 0, 0) 0px 0px 100px;*/
+  text-shadow: rgb(0, 0, 0) -2px 2px 2px;
+}
+
+p {
+  width: 90%;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: .3em;
+  line-height: 2em;
+  margin-left: 0;
+  margin-right: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: block;
+  border-radius: 50px;
+  border: 20px dashed rgba(255, 255, 102, 1);
+  background-color: rgba(0, 0, 51, .6);
+}
