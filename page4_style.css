@@ -1,0 +1,59 @@
+html {
+  font-family: 'Cinzel', serif;
+  background-size: cover;
+  background-image: url("../imgs/hardwood.jpg");
+}
+
+body {
+  background-color: rgba(0, 26, 51, .4);
+  border: 30px groove #000d1a;
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+}
+
+h1 {
+  border: 2px solid #fff;
+  color: #99ccff;
+}
+
+p {
+  margin: 10%;
+  line-height: 2em;
+  letter-spacing: .4em;
+  text-shadow: 5px;
+}
+
+.first, .second, .good, .sincere {
+  border: 2px solid #fff;
+  padding: 2%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.good, .sincere {
+  background-image: url("../Tao_Te_Ching/imgs/pale-bokeh.jpg");
+  color: #00284d;
+}
+
+.first {
+  margin-bottom: 15px;
+  background-color: rgba(0, 26, 51, .7);
+  color: #99ccff;
+}
+
+.good {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.second {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgba(0, 26, 51, .7);
+  color: #99ccff;
+}
+
+.sincere {
+  margin-top: 10px;
+}
