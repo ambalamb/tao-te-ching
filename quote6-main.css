@@ -1,32 +1,58 @@
 body {
   background-image: url(./imgs/pale-bokeh.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Space Mono', monospace;
   width: 100%;
-  margin: 7% 0;
+  height: 100%;
+  margin: 0;
   padding: 0;
 }
 
 main {
-  background: #9BCCD4;
+  background: #CDACB9;
+  background-size: cover;
   height: 600px;
-  width: 100%;
-  margin: 0;
-  padding-top: 10%;
-  padding-left: 40%;
+  margin-top: 100px;
+  box-shadow: 5px 5px tan;
+  letter-spacing: .1em;
+}
+
+main a {
+  text-decoration: none;
+  color: #997580;
+  transition: 1s;
+}
+
+#colorblock a:hover {
+  opacity: 0;
+}
+
+#partone a:hover, #parttwo a:hover, #partthree a:hover {
+  color: #E5EDEE;
+}
+
+#colorblock {
+  background-size: cover;
+  background: #CA816E;
+  padding: 2% 0;
+  text-align: center;
+}
+
+#partone, #parttwo, #partthree {
+  background-size: cover;
+  padding: 1% 0;
+  text-align: center;
 }
 
 #partone {
-  width: 100%;
-  height: 190px;
+  background: #9BCCD4;
 }
 
 #parttwo {
-  width: 100%;
-  height: 190px;
+  background: #DFC7D0;
 }
 
 #partthree {
-  width: 100%;
-  height: 190px;
+  background: #E5EDEE;
 }
