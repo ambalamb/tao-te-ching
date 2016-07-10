@@ -1,0 +1,9 @@
+body {
+  background-image: url(imgs/feudalposts.jpg);
+  background-size: cover;
+  font-size: 60px;
+  color: powderblue;
+  opacity: .6;
+  font-style: oblique;
+  text-align: center;
+}
