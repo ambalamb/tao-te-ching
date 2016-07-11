@@ -21,7 +21,7 @@ p {
   margin: 10%;
   line-height: 2em;
   letter-spacing: .4em;
-  text-shadow: 5px;
+  text-shadow: 1px 1px white;
 }
 
 .first, .second, .good, .sincere {
